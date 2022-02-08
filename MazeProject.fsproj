@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Classes.fs" />
+    <Compile Include="Kruskal.fs" />
+    <Compile Include="MazePath.fs" />
+    <Compile Include="MazeGenerator.fs" />
+    <Compile Include="ReadWriteMaze.fs" />
+    <Compile Include="Interactions.fs" />
+    <Compile Include="Test.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+</Project>
